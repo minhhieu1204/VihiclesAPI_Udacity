@@ -20,7 +20,7 @@ public class MapsClient {
     private final ModelMapper mapper;
 
     public MapsClient(WebClient maps,
-            ModelMapper mapper) {
+                      ModelMapper mapper) {
         this.client = maps;
         this.mapper = mapper;
     }
